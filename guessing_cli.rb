@@ -11,7 +11,7 @@ while true
   end
   if answer == num.to_s
     puts "You guessed the correct number!"
-    return
+    
   end
   if answer != num.to_s
     puts "The computer guessed #{num}."
