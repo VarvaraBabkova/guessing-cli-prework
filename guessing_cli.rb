@@ -5,7 +5,7 @@ def run_guessing_game
 
 while true
   if answer == "exit"
-    puts "Goodbuy!"
+    puts "Goodbye!"
     return
   end
   if answer == num
