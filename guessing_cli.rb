@@ -11,6 +11,7 @@ while true
   end
   if answer == num
     puts "You guessed the correct number!"
+    return
   end
   if answer != num
     puts "The computer guessed #{num}."
