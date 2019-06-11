@@ -7,5 +7,7 @@ def run_guessing_game
     puts "Goodbuy!"
     return
   end
-
+  if answer == num
+    puts "You guessed the correct number!""
+  end
 end
