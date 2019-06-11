@@ -9,11 +9,11 @@ while true
     puts "Goodbye!"
     return
   end
-  if answer.to_i == num
+  if answer == num.to_s
     puts "You guessed the correct number!"
     return
   end
-  if answer.to_i != num
+  if answer != num.to_s
     puts "The computer guessed #{num}."
   end
 end
