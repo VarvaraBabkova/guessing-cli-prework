@@ -3,6 +3,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   answer = gets.chomp
 
+while true
   if answer == "exit"
     puts "Goodbuy!"
     return
@@ -13,4 +14,6 @@ def run_guessing_game
   if answer != num
     puts "The computer guessed #{num}."
   end
+end
+
 end
