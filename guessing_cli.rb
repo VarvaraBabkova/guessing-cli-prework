@@ -10,4 +10,7 @@ def run_guessing_game
   if answer == num
     puts "You guessed the correct number!"
   end
+  if answer != num
+    puts "The computer guessed #{num}."
+  end
 end
