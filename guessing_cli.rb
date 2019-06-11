@@ -8,6 +8,6 @@ def run_guessing_game
     return
   end
   if answer == num
-    puts "You guessed the correct number!""
+    puts "You guessed the correct number!"
   end
 end
